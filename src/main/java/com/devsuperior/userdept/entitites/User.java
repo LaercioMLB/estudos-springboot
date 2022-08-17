@@ -1,5 +1,9 @@
 package com.devsuperior.userdept.entitites;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "tb_user")
 public class User {
 
     private Long id;
